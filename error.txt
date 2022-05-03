@@ -1,0 +1,183 @@
+[joseph@9700k-ArchLinux fyne-test]$ CGO_ENABLED=1 GOARCH=386 GOOS=windows CC=x86_64-w64-mingw32-gcc go build
+# runtime/cgo
+/usr/lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/bin/ld: skipping incompatible /usr/lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/libmingwthrd.a when searching for -lmingwthrd
+/usr/lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/bin/ld: skipping incompatible /usr/lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/libmingwthrd.a when searching for -lmingwthrd
+/usr/lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/bin/ld: skipping incompatible /usr/x86_64-w64-mingw32/lib/libmingwthrd.a when searching for -lmingwthrd
+/usr/lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/bin/ld: skipping incompatible /usr/x86_64-w64-mingw32/lib/libmingwthrd.a when searching for -lmingwthrd
+/usr/lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/bin/ld: skipping incompatible /usr/lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/libmingwthrd.a when searching for -lmingwthrd
+/usr/lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/bin/ld: skipping incompatible /usr/x86_64-w64-mingw32/lib/libmingwthrd.a when searching for -lmingwthrd
+/usr/lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/bin/ld: cannot find -lmingwthrd
+/usr/lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/bin/ld: skipping incompatible /usr/lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/libmingwthrd.a when searching for -lmingwthrd
+/usr/lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/bin/ld: skipping incompatible /usr/x86_64-w64-mingw32/lib/libmingwthrd.a when searching for -lmingwthrd
+/usr/lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/bin/ld: skipping incompatible /usr/lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/libmingw32.a when searching for -lmingw32
+/usr/lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/bin/ld: skipping incompatible /usr/lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/libmingw32.a when searching for -lmingw32
+/usr/lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/bin/ld: skipping incompatible /usr/x86_64-w64-mingw32/lib/libmingw32.a when searching for -lmingw32
+/usr/lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/bin/ld: skipping incompatible /usr/x86_64-w64-mingw32/lib/libmingw32.a when searching for -lmingw32
+/usr/lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/bin/ld: skipping incompatible /usr/lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/libmingw32.a when searching for -lmingw32
+/usr/lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/bin/ld: skipping incompatible /usr/x86_64-w64-mingw32/lib/libmingw32.a when searching for -lmingw32
+/usr/lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/bin/ld: cannot find -lmingw32
+/usr/lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/bin/ld: skipping incompatible /usr/lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/libmingw32.a when searching for -lmingw32
+/usr/lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/bin/ld: skipping incompatible /usr/x86_64-w64-mingw32/lib/libmingw32.a when searching for -lmingw32
+/usr/lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/bin/ld: skipping incompatible /usr/lib/gcc/x86_64-w64-mingw32/11.2.0/libgcc.a when searching for -lgcc
+/usr/lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/bin/ld: skipping incompatible /usr/lib/gcc/x86_64-w64-mingw32/11.2.0/libgcc.a when searching for -lgcc
+/usr/lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/bin/ld: skipping incompatible /usr/lib/gcc/x86_64-w64-mingw32/11.2.0/libgcc.a when searching for -lgcc
+/usr/lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/bin/ld: cannot find -lgcc
+/usr/lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/bin/ld: skipping incompatible /usr/lib/gcc/x86_64-w64-mingw32/11.2.0/libgcc.a when searching for -lgcc
+/usr/lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/bin/ld: skipping incompatible /usr/lib/gcc/x86_64-w64-mingw32/11.2.0/libgcc_eh.a when searching for -lgcc_eh
+/usr/lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/bin/ld: skipping incompatible /usr/lib/gcc/x86_64-w64-mingw32/11.2.0/libgcc_eh.a when searching for -lgcc_eh
+/usr/lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/bin/ld: skipping incompatible /usr/lib/gcc/x86_64-w64-mingw32/11.2.0/libgcc_eh.a when searching for -lgcc_eh
+/usr/lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/bin/ld: cannot find -lgcc_eh
+/usr/lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/bin/ld: skipping incompatible /usr/lib/gcc/x86_64-w64-mingw32/11.2.0/libgcc_eh.a when searching for -lgcc_eh
+/usr/lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/bin/ld: skipping incompatible /usr/lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/libmoldname.a when searching for -lmoldname
+/usr/lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/bin/ld: skipping incompatible /usr/lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/libmoldname.a when searching for -lmoldname
+/usr/lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/bin/ld: skipping incompatible /usr/x86_64-w64-mingw32/lib/libmoldname.a when searching for -lmoldname
+/usr/lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/bin/ld: skipping incompatible /usr/x86_64-w64-mingw32/lib/libmoldname.a when searching for -lmoldname
+/usr/lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/bin/ld: skipping incompatible /usr/lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/libmoldname.a when searching for -lmoldname
+/usr/lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/bin/ld: skipping incompatible /usr/x86_64-w64-mingw32/lib/libmoldname.a when searching for -lmoldname
+/usr/lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/bin/ld: cannot find -lmoldname
+/usr/lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/bin/ld: skipping incompatible /usr/lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/libmoldname.a when searching for -lmoldname
+/usr/lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/bin/ld: skipping incompatible /usr/x86_64-w64-mingw32/lib/libmoldname.a when searching for -lmoldname
+/usr/lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/bin/ld: skipping incompatible /usr/lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/libmingwex.a when searching for -lmingwex
+/usr/lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/bin/ld: skipping incompatible /usr/lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/libmingwex.a when searching for -lmingwex
+/usr/lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/bin/ld: skipping incompatible /usr/x86_64-w64-mingw32/lib/libmingwex.a when searching for -lmingwex
+/usr/lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/bin/ld: skipping incompatible /usr/x86_64-w64-mingw32/lib/libmingwex.a when searching for -lmingwex
+/usr/lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/bin/ld: skipping incompatible /usr/lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/libmingwex.a when searching for -lmingwex
+/usr/lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/bin/ld: skipping incompatible /usr/x86_64-w64-mingw32/lib/libmingwex.a when searching for -lmingwex
+/usr/lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/bin/ld: cannot find -lmingwex
+/usr/lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/bin/ld: skipping incompatible /usr/lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/libmingwex.a when searching for -lmingwex
+/usr/lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/bin/ld: skipping incompatible /usr/x86_64-w64-mingw32/lib/libmingwex.a when searching for -lmingwex
+/usr/lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/bin/ld: skipping incompatible /usr/lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/libmsvcrt.a when searching for -lmsvcrt
+/usr/lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/bin/ld: skipping incompatible /usr/lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/libmsvcrt.a when searching for -lmsvcrt
+/usr/lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/bin/ld: skipping incompatible /usr/x86_64-w64-mingw32/lib/libmsvcrt.a when searching for -lmsvcrt
+/usr/lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/bin/ld: skipping incompatible /usr/x86_64-w64-mingw32/lib/libmsvcrt.a when searching for -lmsvcrt
+/usr/lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/bin/ld: skipping incompatible /usr/lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/libmsvcrt.a when searching for -lmsvcrt
+/usr/lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/bin/ld: skipping incompatible /usr/x86_64-w64-mingw32/lib/libmsvcrt.a when searching for -lmsvcrt
+/usr/lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/bin/ld: cannot find -lmsvcrt
+/usr/lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/bin/ld: skipping incompatible /usr/lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/libmsvcrt.a when searching for -lmsvcrt
+/usr/lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/bin/ld: skipping incompatible /usr/x86_64-w64-mingw32/lib/libmsvcrt.a when searching for -lmsvcrt
+/usr/lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/bin/ld: skipping incompatible /usr/lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/libkernel32.a when searching for -lkernel32
+/usr/lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/bin/ld: skipping incompatible /usr/lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/libkernel32.a when searching for -lkernel32
+/usr/lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/bin/ld: skipping incompatible /usr/x86_64-w64-mingw32/lib/libkernel32.a when searching for -lkernel32
+/usr/lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/bin/ld: skipping incompatible /usr/x86_64-w64-mingw32/lib/libkernel32.a when searching for -lkernel32
+/usr/lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/bin/ld: skipping incompatible /usr/lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/libkernel32.a when searching for -lkernel32
+/usr/lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/bin/ld: skipping incompatible /usr/x86_64-w64-mingw32/lib/libkernel32.a when searching for -lkernel32
+/usr/lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/bin/ld: cannot find -lkernel32
+/usr/lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/bin/ld: skipping incompatible /usr/lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/libkernel32.a when searching for -lkernel32
+/usr/lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/bin/ld: skipping incompatible /usr/x86_64-w64-mingw32/lib/libkernel32.a when searching for -lkernel32
+/usr/lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/bin/ld: skipping incompatible /usr/lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/libpthread.dll.a when searching for -lpthread
+/usr/lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/bin/ld: skipping incompatible /usr/lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/libpthread.a when searching for -lpthread
+/usr/lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/bin/ld: skipping incompatible /usr/lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/libpthread.a when searching for -lpthread
+/usr/lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/bin/ld: skipping incompatible /usr/x86_64-w64-mingw32/lib/libpthread.dll.a when searching for -lpthread
+/usr/lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/bin/ld: skipping incompatible /usr/x86_64-w64-mingw32/lib/libpthread.a when searching for -lpthread
+/usr/lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/bin/ld: skipping incompatible /usr/x86_64-w64-mingw32/lib/libpthread.a when searching for -lpthread
+/usr/lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/bin/ld: skipping incompatible /usr/lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/libpthread.dll.a when searching for -lpthread
+/usr/lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/bin/ld: skipping incompatible /usr/lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/libpthread.a when searching for -lpthread
+/usr/lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/bin/ld: skipping incompatible /usr/x86_64-w64-mingw32/lib/libpthread.dll.a when searching for -lpthread
+/usr/lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/bin/ld: skipping incompatible /usr/x86_64-w64-mingw32/lib/libpthread.a when searching for -lpthread
+/usr/lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/bin/ld: cannot find -lpthread
+/usr/lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/bin/ld: skipping incompatible /usr/lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/libpthread.dll.a when searching for -lpthread
+/usr/lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/bin/ld: skipping incompatible /usr/lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/libpthread.a when searching for -lpthread
+/usr/lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/bin/ld: skipping incompatible /usr/x86_64-w64-mingw32/lib/libpthread.dll.a when searching for -lpthread
+/usr/lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/bin/ld: skipping incompatible /usr/x86_64-w64-mingw32/lib/libpthread.a when searching for -lpthread
+/usr/lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/bin/ld: skipping incompatible /usr/lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/libadvapi32.a when searching for -ladvapi32
+/usr/lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/bin/ld: skipping incompatible /usr/lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/libadvapi32.a when searching for -ladvapi32
+/usr/lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/bin/ld: skipping incompatible /usr/x86_64-w64-mingw32/lib/libadvapi32.a when searching for -ladvapi32
+/usr/lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/bin/ld: skipping incompatible /usr/x86_64-w64-mingw32/lib/libadvapi32.a when searching for -ladvapi32
+/usr/lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/bin/ld: skipping incompatible /usr/lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/libadvapi32.a when searching for -ladvapi32
+/usr/lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/bin/ld: skipping incompatible /usr/x86_64-w64-mingw32/lib/libadvapi32.a when searching for -ladvapi32
+/usr/lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/bin/ld: cannot find -ladvapi32
+/usr/lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/bin/ld: skipping incompatible /usr/lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/libadvapi32.a when searching for -ladvapi32
+/usr/lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/bin/ld: skipping incompatible /usr/x86_64-w64-mingw32/lib/libadvapi32.a when searching for -ladvapi32
+/usr/lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/bin/ld: skipping incompatible /usr/lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/libshell32.a when searching for -lshell32
+/usr/lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/bin/ld: skipping incompatible /usr/lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/libshell32.a when searching for -lshell32
+/usr/lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/bin/ld: skipping incompatible /usr/x86_64-w64-mingw32/lib/libshell32.a when searching for -lshell32
+/usr/lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/bin/ld: skipping incompatible /usr/x86_64-w64-mingw32/lib/libshell32.a when searching for -lshell32
+/usr/lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/bin/ld: skipping incompatible /usr/lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/libshell32.a when searching for -lshell32
+/usr/lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/bin/ld: skipping incompatible /usr/x86_64-w64-mingw32/lib/libshell32.a when searching for -lshell32
+/usr/lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/bin/ld: cannot find -lshell32
+/usr/lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/bin/ld: skipping incompatible /usr/lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/libshell32.a when searching for -lshell32
+/usr/lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/bin/ld: skipping incompatible /usr/x86_64-w64-mingw32/lib/libshell32.a when searching for -lshell32
+/usr/lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/bin/ld: skipping incompatible /usr/lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/libuser32.a when searching for -luser32
+/usr/lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/bin/ld: skipping incompatible /usr/lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/libuser32.a when searching for -luser32
+/usr/lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/bin/ld: skipping incompatible /usr/x86_64-w64-mingw32/lib/libuser32.a when searching for -luser32
+/usr/lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/bin/ld: skipping incompatible /usr/x86_64-w64-mingw32/lib/libuser32.a when searching for -luser32
+/usr/lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/bin/ld: skipping incompatible /usr/lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/libuser32.a when searching for -luser32
+/usr/lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/bin/ld: skipping incompatible /usr/x86_64-w64-mingw32/lib/libuser32.a when searching for -luser32
+/usr/lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/bin/ld: cannot find -luser32
+/usr/lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/bin/ld: skipping incompatible /usr/lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/libuser32.a when searching for -luser32
+/usr/lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/bin/ld: skipping incompatible /usr/x86_64-w64-mingw32/lib/libuser32.a when searching for -luser32
+/usr/lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/bin/ld: skipping incompatible /usr/lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/libkernel32.a when searching for -lkernel32
+/usr/lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/bin/ld: skipping incompatible /usr/lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/libkernel32.a when searching for -lkernel32
+/usr/lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/bin/ld: skipping incompatible /usr/x86_64-w64-mingw32/lib/libkernel32.a when searching for -lkernel32
+/usr/lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/bin/ld: skipping incompatible /usr/x86_64-w64-mingw32/lib/libkernel32.a when searching for -lkernel32
+/usr/lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/bin/ld: skipping incompatible /usr/lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/libkernel32.a when searching for -lkernel32
+/usr/lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/bin/ld: skipping incompatible /usr/x86_64-w64-mingw32/lib/libkernel32.a when searching for -lkernel32
+/usr/lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/bin/ld: cannot find -lkernel32
+/usr/lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/bin/ld: skipping incompatible /usr/lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/libkernel32.a when searching for -lkernel32
+/usr/lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/bin/ld: skipping incompatible /usr/x86_64-w64-mingw32/lib/libkernel32.a when searching for -lkernel32
+/usr/lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/bin/ld: skipping incompatible /usr/lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/libmingwthrd.a when searching for -lmingwthrd
+/usr/lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/bin/ld: skipping incompatible /usr/lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/libmingwthrd.a when searching for -lmingwthrd
+/usr/lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/bin/ld: skipping incompatible /usr/x86_64-w64-mingw32/lib/libmingwthrd.a when searching for -lmingwthrd
+/usr/lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/bin/ld: skipping incompatible /usr/x86_64-w64-mingw32/lib/libmingwthrd.a when searching for -lmingwthrd
+/usr/lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/bin/ld: skipping incompatible /usr/lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/libmingwthrd.a when searching for -lmingwthrd
+/usr/lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/bin/ld: skipping incompatible /usr/x86_64-w64-mingw32/lib/libmingwthrd.a when searching for -lmingwthrd
+/usr/lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/bin/ld: cannot find -lmingwthrd
+/usr/lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/bin/ld: skipping incompatible /usr/lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/libmingwthrd.a when searching for -lmingwthrd
+/usr/lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/bin/ld: skipping incompatible /usr/x86_64-w64-mingw32/lib/libmingwthrd.a when searching for -lmingwthrd
+/usr/lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/bin/ld: skipping incompatible /usr/lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/libmingw32.a when searching for -lmingw32
+/usr/lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/bin/ld: skipping incompatible /usr/lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/libmingw32.a when searching for -lmingw32
+/usr/lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/bin/ld: skipping incompatible /usr/x86_64-w64-mingw32/lib/libmingw32.a when searching for -lmingw32
+/usr/lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/bin/ld: skipping incompatible /usr/x86_64-w64-mingw32/lib/libmingw32.a when searching for -lmingw32
+/usr/lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/bin/ld: skipping incompatible /usr/lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/libmingw32.a when searching for -lmingw32
+/usr/lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/bin/ld: skipping incompatible /usr/x86_64-w64-mingw32/lib/libmingw32.a when searching for -lmingw32
+/usr/lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/bin/ld: cannot find -lmingw32
+/usr/lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/bin/ld: skipping incompatible /usr/lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/libmingw32.a when searching for -lmingw32
+/usr/lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/bin/ld: skipping incompatible /usr/x86_64-w64-mingw32/lib/libmingw32.a when searching for -lmingw32
+/usr/lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/bin/ld: skipping incompatible /usr/lib/gcc/x86_64-w64-mingw32/11.2.0/libgcc.a when searching for -lgcc
+/usr/lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/bin/ld: skipping incompatible /usr/lib/gcc/x86_64-w64-mingw32/11.2.0/libgcc.a when searching for -lgcc
+/usr/lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/bin/ld: skipping incompatible /usr/lib/gcc/x86_64-w64-mingw32/11.2.0/libgcc.a when searching for -lgcc
+/usr/lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/bin/ld: cannot find -lgcc
+/usr/lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/bin/ld: skipping incompatible /usr/lib/gcc/x86_64-w64-mingw32/11.2.0/libgcc.a when searching for -lgcc
+/usr/lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/bin/ld: skipping incompatible /usr/lib/gcc/x86_64-w64-mingw32/11.2.0/libgcc_eh.a when searching for -lgcc_eh
+/usr/lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/bin/ld: skipping incompatible /usr/lib/gcc/x86_64-w64-mingw32/11.2.0/libgcc_eh.a when searching for -lgcc_eh
+/usr/lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/bin/ld: skipping incompatible /usr/lib/gcc/x86_64-w64-mingw32/11.2.0/libgcc_eh.a when searching for -lgcc_eh
+/usr/lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/bin/ld: cannot find -lgcc_eh
+/usr/lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/bin/ld: skipping incompatible /usr/lib/gcc/x86_64-w64-mingw32/11.2.0/libgcc_eh.a when searching for -lgcc_eh
+/usr/lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/bin/ld: skipping incompatible /usr/lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/libmoldname.a when searching for -lmoldname
+/usr/lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/bin/ld: skipping incompatible /usr/lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/libmoldname.a when searching for -lmoldname
+/usr/lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/bin/ld: skipping incompatible /usr/x86_64-w64-mingw32/lib/libmoldname.a when searching for -lmoldname
+/usr/lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/bin/ld: skipping incompatible /usr/x86_64-w64-mingw32/lib/libmoldname.a when searching for -lmoldname
+/usr/lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/bin/ld: skipping incompatible /usr/lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/libmoldname.a when searching for -lmoldname
+/usr/lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/bin/ld: skipping incompatible /usr/x86_64-w64-mingw32/lib/libmoldname.a when searching for -lmoldname
+/usr/lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/bin/ld: cannot find -lmoldname
+/usr/lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/bin/ld: skipping incompatible /usr/lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/libmoldname.a when searching for -lmoldname
+/usr/lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/bin/ld: skipping incompatible /usr/x86_64-w64-mingw32/lib/libmoldname.a when searching for -lmoldname
+/usr/lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/bin/ld: skipping incompatible /usr/lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/libmingwex.a when searching for -lmingwex
+/usr/lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/bin/ld: skipping incompatible /usr/lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/libmingwex.a when searching for -lmingwex
+/usr/lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/bin/ld: skipping incompatible /usr/x86_64-w64-mingw32/lib/libmingwex.a when searching for -lmingwex
+/usr/lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/bin/ld: skipping incompatible /usr/x86_64-w64-mingw32/lib/libmingwex.a when searching for -lmingwex
+/usr/lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/bin/ld: skipping incompatible /usr/lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/libmingwex.a when searching for -lmingwex
+/usr/lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/bin/ld: skipping incompatible /usr/x86_64-w64-mingw32/lib/libmingwex.a when searching for -lmingwex
+/usr/lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/bin/ld: cannot find -lmingwex
+/usr/lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/bin/ld: skipping incompatible /usr/lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/libmingwex.a when searching for -lmingwex
+/usr/lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/bin/ld: skipping incompatible /usr/x86_64-w64-mingw32/lib/libmingwex.a when searching for -lmingwex
+/usr/lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/bin/ld: skipping incompatible /usr/lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/libmsvcrt.a when searching for -lmsvcrt
+/usr/lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/bin/ld: skipping incompatible /usr/lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/libmsvcrt.a when searching for -lmsvcrt
+/usr/lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/bin/ld: skipping incompatible /usr/x86_64-w64-mingw32/lib/libmsvcrt.a when searching for -lmsvcrt
+/usr/lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/bin/ld: skipping incompatible /usr/x86_64-w64-mingw32/lib/libmsvcrt.a when searching for -lmsvcrt
+/usr/lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/bin/ld: skipping incompatible /usr/lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/libmsvcrt.a when searching for -lmsvcrt
+/usr/lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/bin/ld: skipping incompatible /usr/x86_64-w64-mingw32/lib/libmsvcrt.a when searching for -lmsvcrt
+/usr/lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/bin/ld: cannot find -lmsvcrt
+/usr/lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/bin/ld: skipping incompatible /usr/lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/libmsvcrt.a when searching for -lmsvcrt
+/usr/lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/bin/ld: skipping incompatible /usr/x86_64-w64-mingw32/lib/libmsvcrt.a when searching for -lmsvcrt
+/usr/lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/bin/ld: skipping incompatible /usr/lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/libkernel32.a when searching for -lkernel32
+/usr/lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/bin/ld: skipping incompatible /usr/lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/libkernel32.a when searching for -lkernel32
+/usr/lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/bin/ld: skipping incompatible /usr/x86_64-w64-mingw32/lib/libkernel32.a when searching for -lkernel32
+/usr/lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/bin/ld: skipping incompatible /usr/x86_64-w64-mingw32/lib/libkernel32.a when searching for -lkernel32
+/usr/lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/bin/ld: skipping incompatible /usr/lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/libkernel32.a when searching for -lkernel32
+/usr/lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/bin/ld: skipping incompatible /usr/x86_64-w64-mingw32/lib/libkernel32.a when searching for -lkernel32
+/usr/lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/bin/ld: cannot find -lkernel32
+/usr/lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/bin/ld: skipping incompatible /usr/lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/libkernel32.a when searching for -lkernel32
+/usr/lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/bin/ld: skipping incompatible /usr/x86_64-w64-mingw32/lib/libkernel32.a when searching for -lkernel32
+collect2: error: ld returned 1 exit status
+[joseph@9700k-ArchLinux fyne-test]$ 
